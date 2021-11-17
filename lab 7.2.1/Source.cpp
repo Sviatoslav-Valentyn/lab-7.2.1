@@ -23,20 +23,7 @@ void Print(int** R, const int k, const int n)
 }
 int SmallestOfMaximumElements(int** R, const int k, const int n)
 {
-	int min = 0;
-	for (size_t i = 0; i < k; i++)
-	{ 
-					int index = 0;
-					for (size_t j = 0; j < n; j++)
-					{
-						if (R[i][j] > R[i][index])
-						{
-							index = j;
-						}
-					}
-					min = R[i][index];
-					break;
-	}
+	int min = 66;
 	for (int i = 0; i < k; i++)
 			{
 				int index = 0;
